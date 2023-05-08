@@ -102,7 +102,7 @@ function onSearch(e) {
 
 function renderCountryCard(country) {
   const markup = `
-<div class="card">
+<div class="country-card">
   <div class="flags"><img src="{{flags.svg}}" alt="{{name.common}}"></div>
   <div class="body">
     <h2 class="name">Name official: {{name.official}}</h2>
