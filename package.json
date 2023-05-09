@@ -5,7 +5,8 @@
   "homepage": "https://Verlong.github.io/goit-js-modules-practice",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-modules-practice/"
+    "build": "parcel build src/*.html --public-url /goit-js-modules-practice/",
+    "server": "json-server --watch db.json --port 4000"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
     "url": "https://github.com/Verlong/goit-js-modules-practice/issues"
   },
   "dependencies": {
+    "json-server": "^0.17.3",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6"
   },
