@@ -1,0 +1,1 @@
+{"mappings":"AAAA,IAAMA,YAAc,CAClB,aACA,eACA,UACA,cACA,SACA,YACA","sources":["src/partials/11.2.1/getUserAvatars-11.2.1.js"],"sourcesContent":["const usersLogins = [\n  'luxplanjay',\n  'SofiaProtsiv',\n  'qweeqer',\n  'Maxwelllife',\n  'xWinst',\n  'AleksZhov',\n  'gsmoff',\n];\n"],"names":["usersLogins"],"version":3,"file":"getUserAvatars-11.2.1.9563933a.js.map"}
