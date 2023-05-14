@@ -1,0 +1,69 @@
+/* CSS стилі для заголовка */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: lightgray;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 10px;
+        }
+
+        .theme-switcher {
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        /* CSS стилі для бургер-меню */
+        .menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            transition: height 0.3s;
+            z-index: 999;
+        }
+
+        .menu-overlay.open {
+            height: 100vh;
+        }
+
+        .menu {
+            position: relative;
+            background-color: white;
+            width: 200px;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            transform: translateX(-100%);
+            transition: transform 0.3s;
+            z-index: 1000;
+        }
+
+        .menu.open {
+            transform: translateX(0);
+        }
