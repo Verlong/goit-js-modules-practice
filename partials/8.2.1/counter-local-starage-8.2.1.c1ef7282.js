@@ -1,0 +1,2 @@
+const e=document.querySelectorAll("[data-action]"),t=document.querySelector(".counter-value");let o=+localStorage.getItem("counter")||0;t.textContent=o,e.forEach((e=>{e.addEventListener("click",(()=>{switch(e.dataset.action){case"decrease":o--,console.log(o);break;case"increase":o++,console.log(o);break;case"reset":o=0,console.log(o);break;case"save":localStorage.setItem("counter",o);break;case"clear-save":localStorage.removeItem("counter")}t.textContent=o}))}));
+//# sourceMappingURL=counter-local-starage-8.2.1.c1ef7282.js.map

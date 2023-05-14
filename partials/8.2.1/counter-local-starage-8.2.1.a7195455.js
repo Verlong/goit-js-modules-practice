@@ -1,0 +1,2 @@
+!function(){var e=document.querySelectorAll("[data-action]"),t=document.querySelector(".counter-value"),o=+localStorage.getItem("counter")||0;t.textContent=o,e.forEach((function(e){e.addEventListener("click",(function(){switch(e.dataset.action){case"decrease":o--,console.log(o);break;case"increase":o++,console.log(o);break;case"reset":o=0,console.log(o);break;case"save":localStorage.setItem("counter",o);break;case"clear-save":localStorage.removeItem("counter")}t.textContent=o}))}))}();
+//# sourceMappingURL=counter-local-starage-8.2.1.a7195455.js.map
